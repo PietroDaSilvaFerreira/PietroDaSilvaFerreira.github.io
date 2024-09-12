@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/favicon-32x32.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>devhelpercenter.com</title>
+</head>
+
+<body>
+    <header id="cabeçalho">
+        <div id="logo-para-telas-pequenas">
+            <img src="imgs/logo-para-telas-pequenas.png" alt="logo-pequena" class="logo-pequena">
+            <p class="text-logo">DevHelperCenter</p>
+        </div>
+        <img src="imgs/logo-do-cabeçalho_2_.png" alt="logo-do-cabeçalho" class="logo">
+
+        <nav>
+            <div id="header-links">
+                <a href="index.html" class="header-link" title="Home">Home</a>
+                <a href="linguagens.html" class="header-link" title="Linguagens">Linguagens</a>
+                <a href="documentacoes.html" class="header-link" title="Documentações">Documentações</a>
+            </div>
+        </nav>
+
+        <nav>
+            <div id="menu-lateral">
+                <span id="linha0"></span>
+                <span id="linha1"></span>
+                <span id="linha2"></span>
+            </div>
+        </nav>
+
+        <nav id="menu-expandido">
+            <ul id="coisas-do-menu">
+                <li class="coisa-do-menu"><a href="linguagens.html" class="link-do-menu">Linguagens</a></li>
+                <li class="coisa-do-menu"><a href="documentacoes.html" class="link-do-menu">Documentações</a></li>
+                <li class="coisa-do-menu"><a href="sobre.html" class="link-do-menu" title="Sobre">Sobre</a></li>
+                <li class="coisa-do-menu"><a href="politicadeprivacidade.html" class="link-do-menu"
+                        title="Política de privacidade">Política de privacidade</a></li>
+                <li class="coisa-do-menu"><a href="termosdeuso.html" class="link-do-menu">Termos de uso</a></li>
+            </ul>
+        </nav>
+
+        <nav>
+            <div id="pesquisa">
+                <input type="search" id="barra-de-pesquisa" placeholder="Buscar..." autocomplete="off">
+                <button id="submit"><i class="bi bi-search"></i></button>
+                <ul id="resultado-da-busca"></ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="secoes">
+            <section>
+                <h1>1º Escolha o seu tipo de programação</h1>
+                <p class="text">Antes de mergulhar no mundo da programação, é essencial escolher o tipo de programação
+                    que mais se
+                    alinha com seus objetivos e interesses. A programação abrange várias áreas, cada uma com suas
+                    particularidades e aplicações específicas.</p>
+                <h2 class="•subtitulo">Desenvolvimento Web</h2>
+                <p class="text">Se você gosta da ideia de criar e manter websites, o desenvolvimento web pode ser sua
+                    praia. Existem
+                    duas vertentes principais: <span class="destaque">front-end</span>, que lida com a interface e
+                    experiência do usuário, e <span class="destaque">back-end</span>,
+                    que cuida do lado servidor e banco de dados.</p>
+                <h2 class="•subtitulo">Desenvolvimento de Software</h2>
+                <p class="text">Criar aplicativos desktop ou sistemas operacionais é o foco do desenvolvimento de
+                    software.
+                    Linguagens como <span class="destaque">C++, Java e Python</span> são bastante utilizadas nessa área.
+                </p>
+                <h2 class="•subtitulo">Ciência de Dados</h2>
+                <p class="text">Se você tem interesse em trabalhar com grandes volumes de dados, análise e algoritmos, a
+                    ciência de
+                    dados pode ser o caminho ideal. <span class="destaque">Python e R</span> são linguagens comuns nessa
+                    área.</p>
+                <h2 class="•subtitulo">Desenvolvimento de Jogos</h2>
+                <p class="text">Para os apaixonados por games, o desenvolvimento de jogos oferece uma combinação de
+                    criatividade e
+                    lógica. Usar motores de jogos como <a href="https://unity.com/" class="externo"
+                        target="_blank">Unity</a> ou <a href="https://www.unrealengine.com/" class="externo"
+                        target="_blank">Unreal Engine</a> pode te
+                    ajudar a criar desde jogos simples
+                    até grandes produções.</p>
+                <h2 class="•subtitulo">Desenvolvimento Mobile</h2>
+                <p class="text">Com a popularidade dos smartphones, desenvolver aplicativos móveis é uma área em
+                    expansão. Você pode
+                    se especializar em iOS usando <span class="destaque">Swift</span> ou em Android como <span
+                        class="destaque">Java e Kotlin</span>.</p>
+                <h2 class="•subtitulo">Inteligência Artificial</h2>
+                <p class="text">Para quem se interessa por máquinas que aprendem e tomam decisões, a inteligência
+                    artificial é
+                    fascinante. Envolve programação de algoritmos complexos e redes neurais, frequentemente utilizando
+                    <span class="destaque">Python</span>.
+                </p>
+            </section>
+            <div class="logos">
+                <img src="https://www.python.org/static/community_logos/python-logo.png" alt="logo-python"
+                    id="logo-python">
+                <p class="direitos-da-logo"><small>A logo do Python é uma marca registrada da Python Software
+                        Foundation. Todos os direitos sobre
+                        a logo são reservados aos seus respectivos proprietários.</small></p>
+            </div>
+            <section>
+                <h1>2º Escolha sua ferramenta de desenvolvimento</h1>
+                <p class="text">Depois de escolher o tipo de programação, é hora de selecionar as
+                    ferramentas certas para facilitar seu trabalho e aumentar sua produtividade. A escolha da ferramenta
+                    de desenvolvimento adequada depende das suas necessidades e preferências pessoais.</p>
+                <h2>1. Editores de Texto e IDEs</h2>
+                <p class="text">Escolha um editor de texto ou uma IDE (Ambiente de Desenvolvimento Integrado) que seja
+                    eficiente e
+                    confortável de usar. Algumas opções populares são:</p>
+                <h3 class="•subtitulo2">Visual Studio Code: <span class="detalhe"><br id="quebra-do-ferramenta">Leve,
+                        extensível
+                        e suportando uma
+                        ampla gama de <br>linguagens e ferramentas.
+                    </span></h3>
+                <p class="text-ferramenta">Leve,
+                    extensível
+                    e suportando <br id="quebra-do-ferramenta">uma
+                    ampla gama de <br>linguagens <br id="quebra-do-ferramenta">e ferramentas.</p>
+
+                <h3 class="•subtitulo2">Atom: <span class="detalhe"><br id="quebra-do-ferramenta">Um editor hackável
+                        criado pelo
+                        GitHub, ideal para
+                        customizações.</span></h3>
+                <p class="text-ferramenta">Um editor hackável
+                    criado pelo
+                    GitHub, ideal para
+                    customizações.</p>
+
+                <h3 class="•subtitulo2">Sublime Text: <span class="detalhe"><br id="quebra-do-ferramenta">Conhecido por
+                        sua
+                        velocidade e
+                        simplicidade.</span></h3>
+                <p class="text-ferramenta">Conhecido por
+                    sua
+                    velocidade <br id="quebra-do-ferramenta">e
+                    simplicidade.</p>
+
+                <h3 class="•subtitulo2">IntelliJ IDEA: <span class="detalhe"><br id="quebra-do-ferramenta">Uma poderosa
+                        IDE,
+                        especialmente útil para
+                        desenvolvimento
+                        em Java.</span></h3>
+                <p class="text-ferramenta">Uma poderosa
+                    IDE,
+                    especialmente útil para
+                    desenvolvimento
+                    em Java.</p>
+
+                <h3 class="•subtitulo2">PyCharm: <span class="detalhe"><br id="quebra-do-ferramenta">IDE específica para
+                        Python,
+                        com muitos recursos
+                        úteis.</span>
+                </h3>
+                <p class="text-ferramenta">IDE específica para
+                    Python,
+                    com muitos recursos
+                    úteis.</p>
+
+                <h2>2. Sistemas de Controle de Versão</h2>
+                <p class="text">Gerenciar seu código é crucial. O <span class="destaque">Git</span> é o sistema de
+                    controle de versão
+                    mais utilizado, e plataformas como <a href="https://github.com/" class="externo"
+                        target="_blank">GitHub</a>, <a href="https://about.gitlab.com/" class="externo"
+                        target="_blank">GitLab</a> e <a href="https://bitbucket.org/" class="externo"
+                        target="_blank">Bitbucket</a> facilitam a colaboração e
+                    o gerenciamento de projetos.</p>
+                <h2>3. Ferramentas de Construção e Automação</h2>
+                <p class="text">Ferramentas como <a href="https://webpack.js.org" class="externo"
+                        target="_blank">Webpack</a>, <a href="https://gulpjs.com/" class="externo"
+                        target="_blank">Gulp</a>, e <a href="https://gruntjs.com/" class="externo"
+                        target="_blank">Grunt</a> ajudam a automatizar tarefas
+                    repetitivas no desenvolvimento
+                    web, como <span class="destaque">minificação de arquivos</span>, <span class="destaque">transpiração
+                        de código</span> e muito mais.</p>
+                <h2>4. Ambientes de Desenvolvimento Local</h2>
+                <p class="text">Para testar e desenvolver suas aplicações localmente, ferramentas como <a
+                        href="https://www.docker.com/" class="externo" target="_blank">Docker</a> podem criar ambientes
+                    isolados que replicam a produção, facilitando o desenvolvimento e a implantação.</p>
+                <h2>5. Debuggers e Ferramentas de Teste</h2>
+                <p class="text">Use debuggers e ferramentas de teste para garantir que seu código esteja funcionando
+                    corretamente.
+                    Ferramentas como <a href="https://developer.chrome.com/docs/devtools" class="externo"
+                        target="_blank">Chrome DevTools</a> para front-end e <a href="https://jestjs.io/"
+                        class="externo" target="_blank">Jest</a> para
+                    testes de JavaScript são extremamente
+                    úteis.</p>
+                <p class="text">
+                    Escolher as ferramentas certas pode fazer uma grande diferença no seu fluxo de trabalho e na
+                    qualidade do seu código. Experimente diferentes editores, IDEs e ferramentas até encontrar aquelas
+                    que
+                    melhor se ajustam ao seu estilo de trabalho e às suas necessidades específicas. Com as ferramentas
+                    adequadas, você estará bem equipado para enfrentar qualquer desafio de programação.
+                </p>
+            </section>
+            <div class="logos">
+                <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/187_Js_logo_logos-256.png"
+                    alt="logo-javascript" id="logo-javascript">
+            </div>
+            <section>
+                <h1>3º Estude</h1>
+                <p class="text">Após escolher o seu tipo de programação e sua ferramenta de desenvolvimento, o próximo
+                    passo é se
+                    dedicar aos estudos. Estudar é
+                    fundamental para desenvolver as habilidades necessárias e se tornar um programador competente. Aqui
+                    estão algumas dicas para orientar seus estudos:</p>
+                <h2>6. Utilize Recursos Online</h2>
+                <p class="text">Existem inúmeros recursos gratuitos e pagos na internet para aprender programação.
+                    Plataformas como
+                    <a href="https://www.coursera.org/" class="externo" target="_blank">Coursera</a>, <a
+                        href="https://www.edx.org/" class="externo" target="_blank">edX</a>, <a
+                        href="https://www.udemy.com/" class="externo" target="_blank">Udemy</a>, <a
+                        href="https://www.codecademy.com/" class="externo" target="_blank">Codecademy</a>, e <a
+                        href="https://www.khanacademy.org/" class="externo" target="_blank">Khan Academy</a> oferecem
+                    cursos
+                    estruturados que cobrem desde o
+                    básico até o avançado.
+                </p>
+                <h2>7. Pratique com Projetos</h2>
+                <p class="text">A prática é essencial para consolidar o conhecimento. Crie pequenos projetos práticos
+                    que desafiem
+                    suas habilidades e permitam aplicar o que você aprendeu. Construa sites, desenvolva aplicações, ou
+                    contribua para projetos de código aberto.</p>
+                <h2>8. Participe de Comunidades</h2>
+                <p class="text">Junte-se a comunidades online de desenvolvedores, como fóruns, grupos no Facebook, e
+                    comunidades no
+                    Reddit. Participar dessas comunidades pode fornecer suporte, feedback, e novas perspectivas.</p>
+                <h2>9. Leia Documentação e Livros</h2>
+                <p class="text">A documentação oficial de linguagens e frameworks é uma fonte valiosa de conhecimento.
+                    Além disso,
+                    livros escritos por especialistas podem aprofundar seu entendimento e oferecer práticas
+                    recomendadas.</p>
+                <h2>10. Resolva Desafios de Programação</h2>
+                <p class="text">Plataformas como <a href="https://www.hackerrank.com/" class="externo"
+                        target="_blank">HackerRank</a>, <a href="https://leetcode.com/" class="externo"
+                        target="_blank">LeetCode</a>, e <a href="https://www.codewars.com/" class="externo"
+                        target="_blank">Codewars</a> oferecem desafios de
+                    programação que podem ajudar a
+                    melhorar suas habilidades e preparar você para entrevistas técnicas.</p>
+                <p class="text-final">
+                    Estudar continuamente e de forma estruturada é crucial para o seu desenvolvimento como
+                    programador. Combine teoria com prática, aproveite os recursos disponíveis e mantenha-se
+                    atualizado com as tendências da tecnologia. Com dedicação, você estará no caminho certo para
+                    alcançar seus objetivos na programação.
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div id="conteiner-logo-footer">
+            <img src="imgs/logo-para-telas-pequenas.png" alt="logo-do-footer" class="logo-do-footer">
+            <p class="text-logo-footer">DevHelperCenter</p>
+        </div>
+
+        <div id="footer-links">
+            <a href="sobre.html" class="footer-link" title="Sobre">Sobre</a>
+            <a href="politicadeprivacidade.html" class="footer-link" title="Política de privacidade">Política de
+                privacidade</a>
+            <a href="termosdeuso.html" class="footer-link" title="Termos de uso">Termos de uso</a>
+        </div>
+
+        <p id="email">pietrodasilvaferreira13@gmail.com</p>
+    </footer>
+
+    <div id="copyright">
+        &copy;<span id="ano"></span> Pietro Da Silva Ferreira. Todos os direitos reservados.
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

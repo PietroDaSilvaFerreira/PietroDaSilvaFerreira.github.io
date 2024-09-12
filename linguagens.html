@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="imgs/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Linguagens de Programação</title>
+</head>
+
+<body>
+    <header id="cabeçalho">
+        <div id="logo-para-telas-pequenas">
+            <img src="imgs/logo-para-telas-pequenas.png" alt="logo-pequena" class="logo-pequena">
+            <p class="text-logo">DevHelperCenter</p>
+        </div>
+        <img src="imgs/logo-do-cabeçalho_2_.png" alt="logo-do-cabeçalho" class="logo">
+
+        <nav>
+            <div id="header-links">
+                <a href="index.html" class="header-link" title="Home">Home</a>
+                <a href="linguagens.html" class="header-link" title="Linguagens">Linguagens</a>
+                <a href="documentacoes.html" class="header-link" title="Documentações">Documentações</a>
+            </div>
+        </nav>
+
+        <nav>
+            <div id="menu-lateral">
+                <span id="linha0"></span>
+                <span id="linha1"></span>
+                <span id="linha2"></span>
+            </div>
+        </nav>
+
+        <nav id="menu-expandido">
+            <ul id="coisas-do-menu">
+                <li class="coisa-do-menu"><a href="linguagens.html" class="link-do-menu">Linguagens</a></li>
+                <li class="coisa-do-menu"><a href="documentacoes.html" class="link-do-menu">Documentações</a></li>
+                <li class="coisa-do-menu"><a href="sobre.html" class="link-do-menu" title="Sobre">Sobre</a></li>
+                <li class="coisa-do-menu"><a href="politicadeprivacidade.html" class="link-do-menu"
+                        title="Política de privacidade">Política de privacidade</a></li>
+                <li class="coisa-do-menu"><a href="termosdeuso.html" class="link-do-menu">Termos de uso</a></li>
+            </ul>
+        </nav>
+
+        <nav>
+            <div id="pesquisa">
+                <input type="search" id="barra-de-pesquisa" placeholder="Buscar..." autocomplete="off">
+                <button id="submit"><i class="bi bi-search"></i></button>
+                <ul id="resultado-da-busca"></ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="secoes">
+            <section>
+                <h1>1. Linguagens de Programação Principais</h1>
+                <h2>Python</h2>
+                <p class="text">Python é uma linguagem de alto nível que se destaca pela sua sintaxe clara e
+                    legibilidade. É
+                    amplamente usada devido à sua versatilidade e robustez, tornando-se uma escolha popular para
+                    desenvolvimento web, análise de dados, automação, e até mesmo inteligência artificial. A vasta
+                    coleção
+                    de bibliotecas e frameworks, como <span class="destaque">Django e Pandas</span>, contribui para sua
+                    ampla aplicação em diversos
+                    campos.</p>
+
+                <h2>JavaScript</h2>
+                <p class="text">JavaScript é a espinha dorsal da web moderna, permitindo que desenvolvedores criem
+                    interatividade e dinamismo em páginas web. Com o suporte a frameworks como <span
+                        class="destaque">React e Angular</span>,
+                    JavaScript
+                    não é apenas uma linguagem para scripts do lado do cliente, mas também pode ser usado no lado do
+                    servidor através do <a href="https://nodejs.org/en" class="externo" target="_blank">Node.js</a>. Sua
+                    adaptabilidade a diferentes
+                    ambientes de desenvolvimento a torna
+                    essencial para qualquer desenvolvedor web.</p>
+
+                <h2>Java</h2>
+                <p class="text">Java é conhecida por sua portabilidade e estabilidade, o que a torna ideal para
+                    aplicações
+                    empresariais e sistemas complexos. A linguagem é baseada em uma plataforma que permite que o mesmo
+                    código funcione em diferentes sistemas operacionais. É amplamente utilizada no desenvolvimento de
+                    aplicativos Android, além de aplicações corporativas robustas.</p>
+
+                <h2>C++</h2>
+                <p class="text">C++ oferece um controle detalhado sobre o hardware, o que é crucial para o
+                    desenvolvimento
+                    de sistemas que exigem alta performance. É uma escolha popular para programar jogos, software de
+                    sistema
+                    e outras aplicações que precisam de uma gestão eficiente de recursos. O suporte a programação
+                    orientada
+                    a objetos e a capacidade de manipulação direta de memória são algumas das suas características
+                    marcantes.</p>
+
+                <h2>C#</h2>
+                <p class="text">Desenvolvida pela <span class="destaque">Microsoft</span>, C# é uma linguagem orientada
+                    a objetos que se integra
+                    profundamente com a plataforma <a href="https://dotnet.microsoft.com/pt-br/" class="externo"
+                        target="_blank">.NET</a>. É utilizada para criar
+                    aplicações Windows e também é popular no
+                    desenvolvimento de jogos através do <a href="https://unity.com/pt" class="externo"
+                        target="_blank">Unity</a>, um dos motores de jogos
+                    mais usados no mundo.</p>
+
+                <h2>PHP</h2>
+                <p class="text">PHP é uma linguagem de script do lado do servidor que é fundamental para criar páginas
+                    web
+                    dinâmicas e interativas. Usada principalmente para desenvolvimento web, PHP pode ser facilmente
+                    integrado com bancos de dados e servidores para criar sites e aplicações web eficientes. Frameworks
+                    como
+                    <span class="destaque">Laravel e Symfony</span> expandem ainda mais suas capacidades.
+                </p>
+
+                <h2>Ruby</h2>
+                <p class="text">Ruby é valorizada por sua simplicidade e produtividade, com uma sintaxe que favorece a
+                    legibilidade e o desenvolvimento rápido. A linguagem é frequentemente associada ao framework <span
+                        class="destaque">
+                        Ruby on
+                        Rails
+                    </span>, que facilita a construção de aplicações web sofisticadas e escaláveis.</p>
+
+                <h2>Swift</h2>
+                <p class="text">Swift é a linguagem desenvolvida pela <span class="destaque">Apple</span> para o
+                    desenvolvimento de aplicativos para
+                    iOS e
+                    macOS. Com uma sintaxe moderna e segura, Swift oferece desempenho elevado e é ideal para criar
+                    aplicativos que se integrem perfeitamente com o ecossistema da Apple.</p>
+
+                <h2>Go (Golang)</h2>
+                <p class="text">Go é uma linguagem criada pelo <span class="destaque">Google</span> que combina
+                    simplicidade com desempenho robusto. É
+                    amplamente usada em sistemas e aplicações em nuvem devido à sua eficiência e capacidade de lidar com
+                    alta concorrência de maneira eficaz.</p>
+
+                <h2>Kotlin</h2>
+                <p class="text">Kotlin é uma linguagem que se destaca por sua interoperabilidade com Java e é preferida
+                    para
+                    o desenvolvimento de aplicativos Android modernos. Oferece uma sintaxe mais concisa e
+                    características
+                    avançadas que ajudam a melhorar a produtividade dos desenvolvedores.</p>
+            </section>
+
+            <section>
+                <h1 class="titulo2">2. Linguagens de Programação Funcional e de Script</h1>
+                <h2>Haskell</h2>
+                <p class="text">Haskell é uma linguagem puramente funcional que se destaca por seu foco em
+                    expressividade e
+                    segurança. Utilizada principalmente em contextos acadêmicos e para sistemas onde a matemática e a
+                    lógica
+                    desempenham um papel crucial, Haskell proporciona um modelo de programação que enfatiza a
+                    imutabilidade
+                    e a simplicidade.</p>
+
+                <h2>Scala</h2>
+                <p class="text">Scala combina conceitos de programação funcional e orientada a objetos, o que a torna
+                    uma
+                    escolha poderosa para desenvolvimento de sistemas complexos e aplicações de <span
+                        class="destaque">Big Data</span>. É
+                    frequentemente
+                    utilizada em conjunto com o <a
+                        href="https://azure.microsoft.com/en-us/free/databricks/search/?ef_id=_k_CjwKCAjw_4S3BhAAEiwA_64YhjuPvqe4J5D6oNag0vGt_9SjoIBNndE_9kmmhFjU7V3_atE5QQXDGRoCi-kQAvD_BwE_k_&OCID=AIDcmmzmnb0182_SEM__k_CjwKCAjw_4S3BhAAEiwA_64YhjuPvqe4J5D6oNag0vGt_9SjoIBNndE_9kmmhFjU7V3_atE5QQXDGRoCi-kQAvD_BwE_k_&gad_source=1&gclid=CjwKCAjw_4S3BhAAEiwA_64YhjuPvqe4J5D6oNag0vGt_9SjoIBNndE_9kmmhFjU7V3_atE5QQXDGRoCi-kQAvD_BwE"
+                        class="externo" target="_blank">Apache Spark</a> para processamento de
+                    grandes volumes de dados.</p>
+
+                <h2>R</h2>
+                <p class="text">R é a linguagem preferida para análise estatística e visualização de dados. É amplamente
+                    usada por estatísticos e cientistas de dados para realizar análises complexas e gerar relatórios
+                    detalhados, com uma vasta gama de pacotes para diversas necessidades estatísticas.</p>
+
+                <h2>Perl</h2>
+                <p class="text">Conhecida por sua capacidade de manipulação de texto e flexibilidade, Perl é usada para
+                    uma
+                    variedade de tarefas, incluindo scripts de administração de sistemas e desenvolvimento web. Sua
+                    sintaxe
+                    poderosa e extensiva biblioteca de módulos tornam-na uma linguagem versátil para diferentes
+                    aplicações.
+                </p>
+            </section>
+
+            <section>
+                <h1 class="titulo2">3. Linguagens e Ferramentas Menos Convencionais</h1>
+                <h2>SQL</h2>
+                <p class="text">SQL <span class="destaque">(Structured Query Language)</span> é a linguagem padrão para
+                    gerenciar e consultar bancos
+                    de
+                    dados relacionais. Com comandos que permitem a criação, modificação e consulta de dados, SQL é
+                    essencial
+                    para qualquer sistema que requer a gestão de informações armazenadas em bancos de dados.</p>
+            </section>
+
+            <section>
+                <h2>HTML/CSS</h2>
+                <p class="text">HTML <span class="destaque">(Hypertext Markup Language)</span> é a linguagem de marcação
+                    usada para estruturar o
+                    conteúdo
+                    da web, enquanto CSS <span class="destaque">(Cascading Style Sheets)</span> é usada para estilizar e
+                    formatar esse conteúdo.
+                    Juntas,
+                    HTML e CSS são fundamentais para o desenvolvimento <span class="destaque">front-end</span> de sites
+                    e aplicações web.</p>
+
+                <h2>Assembly</h2>
+                <p class="text">Assembly é uma linguagem de baixo nível que permite um controle detalhado sobre o
+                    hardware,
+                    tornando-a útil para programação de sistemas e otimização de desempenho. É uma escolha para
+                    aplicações
+                    que requerem uma gestão precisa de recursos e operações de baixo nível.</p>
+
+                <h2>VHDL/Verilog</h2>
+                <p class="text">VHDL e Verilog são linguagens de descrição de hardware usadas para projetar circuitos
+                    digitais. São fundamentais em projetos de FPGA <span class="destaque">(Field-Programmable Gate
+                        Array)</span> e em desenvolvimento
+                    de
+                    sistemas de hardware complexos.</p>
+            </section>
+
+            <section>
+                <h1 class="titulo2">4. Linguagens em Desenvolvimento ou Menos Conhecidas</h1>
+                <h2>Rust</h2>
+                <p class="text">Rust é uma linguagem que prioriza segurança e desempenho, com um sistema de tipos
+                    robusto
+                    que ajuda a prevenir erros comuns de programação. É ideal para aplicações que requerem alta
+                    performance
+                    e segurança, como sistemas e software de baixo nível.</p>
+
+                <h2>Julia</h2>
+                <p class="text">Julia é uma linguagem de programação voltada para computação técnica, combinando a
+                    eficiência do <span class="destaque">C</span> com a facilidade de uso de linguagens de script. É
+                    ideal para análise numérica e
+                    computação científica, oferecendo um desempenho impressionante para cálculos complexos.</p>
+            </section>
+
+            <aside>
+                <p class="obs">Obs: Algumas das linguagens faladas acima não são
+                    consideradas linguagens. Ex: HTML e CSS.</p>
+            </aside>
+
+            <section>
+                <h1 class="titulo2">5. Linguagens de Programação para Análise de Dados e Cálculos Científicos</h1>
+                <h2>MATLAB</h2>
+                <p class="text">MATLAB é uma linguagem voltada para cálculos numéricos e análise de dados, muito
+                    utilizada
+                    em áreas como engenharia, ciência e economia. Ela oferece ferramentas robustas para resolver
+                    problemas
+                    matemáticos complexos e é amplamente usada em simulações, modelagem e processamento de imagens.</p>
+                <h2>SAS</h2>
+                <p class="text">SAS (Statistical Analysis System) é uma linguagem usada principalmente para análise
+                    estatística em grandes volumes de dados. Ela é bastante comum em instituições financeiras e na área
+                    da
+                    saúde, onde se faz necessária uma análise precisa e eficaz de dados complexos.</p>
+            </section>
+
+            <section>
+                <h1 class="titulo2">6. Linguagens de Programação Lógicas e Educacionais</h1>
+                <h2>Prolog</h2>
+                <p class="text">Prolog é uma linguagem declarativa associada à inteligência artificial e à computação
+                    lógica. Em vez de descrever como o problema deve ser resolvido, o programador descreve o que deve
+                    ser
+                    feito, e o motor lógico de Prolog encontra a solução.</p>
+                <h2>Logo</h2>
+                <p class="text">Logo é uma linguagem educacional projetada para ensinar conceitos de programação por
+                    meio de
+                    gráficos, como desenhar formas geométricas. Sua interface baseada em uma tartaruga que se move pela
+                    tela
+                    ajudou muitas crianças a entenderem os conceitos básicos de computação.</p>
+            </section>
+
+            <section>
+                <h1 class="titulo2">7. Linguagens de Programação para Desenvolvimento de Jogos e Scripts Embutidos</h1>
+                <h2>Lua</h2>
+                <p class="text">Lua é uma linguagem leve, embutível e poderosa, frequentemente usada em desenvolvimento
+                    de
+                    jogos e scripts em software. Sua simplicidade e flexibilidade fazem dela uma ótima escolha para
+                    criar
+                    scripts que precisam ser executados de maneira rápida e eficiente.</p>
+                <h2>VimL</h2>
+                <p class="text">VimL é a linguagem de script do editor de texto Vim. Embora não seja uma linguagem de
+                    programação no sentido tradicional, permite aos usuários do Vim automatizar e personalizar seu fluxo
+                    de
+                    trabalho dentro do editor, tornando-o incrivelmente poderoso para tarefas repetitivas e
+                    personalizações
+                    avançadas.</p>
+            </section>
+
+            <section>
+                <h1 class="titulo2">8. Linguagens de Programação de Negócios e Científicas Tradicionais</h1>
+                <h2>COBOL</h2>
+                <p class="text">COBOL (Common Business-Oriented Language) é uma linguagem de programação antiga, mas
+                    ainda
+                    em uso em sistemas bancários e governamentais. Conhecida por sua confiabilidade em processamento de
+                    grandes volumes de transações, COBOL é uma peça chave em muitos sistemas de legado.</p>
+                <h2>Fortran</h2>
+                <p class="text">Fortran é uma das linguagens de programação mais antigas, amplamente utilizada em
+                    computação
+                    científica e engenharia. Ela foi desenvolvida para computações numéricas e científicas intensivas e
+                    ainda é usada em projetos que exigem alta precisão matemática.</p>
+            </section>
+
+            <section>
+                <h1 class="titulo2">9. Linguagens de Script e Automação</h1>
+                <h2>Shell Script</h2>
+                <p class="text">Shell Script é usado para automatizar tarefas em sistemas operacionais baseados em Unix,
+                    como Linux e macOS. Embora não seja considerada uma linguagem de programação completa, é poderosa
+                    para
+                    administrar sistemas, realizar operações em arquivos e automatizar fluxos de trabalho.</p>
+                <h2>Tcl</h2>
+                <p class="text">Tcl (Tool Command Language) é uma linguagem interpretada de script, projetada para ser
+                    embutida em outras aplicações. É comumente usada em automação de testes, interfaces gráficas e
+                    manipulação de texto.</p>
+            </section>
+
+            <section>
+                <h1 class="titulo2">10. Linguagens de Marcação e Serialização de Dados</h1>
+                <h2>Markdown</h2>
+                <p class="text">Markdown é uma linguagem de marcação leve, usada principalmente para formatar texto em
+                    ambientes onde o HTML seria excessivo. Não é uma linguagem de programação, mas é amplamente
+                    utilizada em
+                    documentação, blogs e outras plataformas que exigem texto formatado de forma simples e legível.</p>
+                <h2>YAML</h2>
+                <p class="text">YAML (YAML Ain't Markup Language) é uma linguagem de serialização de dados fácil de ler
+                    e
+                    escrever. Utilizada para configuração de sistemas e armazenamento de dados, é uma escolha comum em
+                    ambientes DevOps e para gerenciamento de configurações em sistemas complexos.</p>
+                <h2>JSON</h2>
+                <p class="text">JSON (JavaScript Object Notation) é um formato leve de troca de dados, que é legível
+                    tanto
+                    para humanos quanto para máquinas. Embora seja frequentemente visto como uma maneira de transmitir
+                    dados, é tecnicamente uma estrutura de dados, não uma linguagem de programação.</p>
+                <h2>XML</h2>
+                <p class="text">XML (Extensible Markup Language) é uma linguagem de marcação que define um conjunto de
+                    regras para codificar documentos de forma legível para humanos e máquinas. Usado frequentemente para
+                    transporte de dados entre sistemas, XML é fundamental em web services e integração de sistemas.</p>
+            </section>
+
+            <section>
+                <h1 class="titulo2">11. Linguagens Funcionais e de Pesquisa Acadêmica</h1>
+                <h2>Racket</h2>
+                <p class="text">Racket é uma linguagem derivada de Lisp, projetada para ser uma plataforma flexível para
+                    criação de linguagens e aplicações. É amplamente usada em educação e em pesquisa de linguagens de
+                    programação.</p>
+            </section>
+            <p class="text">Essas são apenas algumas das muitas linguagens de programação e tecnologias disponíveis.
+                Continue explorando para descobrir mais opções e aprofundar seus conhecimentos</p>
+        </div>
+    </main>
+
+    <footer>
+        <div id="conteiner-logo-footer">
+            <img src="imgs/logo-para-telas-pequenas.png" alt="logo-do-footer" class="logo-do-footer">
+            <p class="text-logo-footer">DevHelperCenter</p>
+        </div>
+
+        <div id="footer-links">
+            <a href="sobre.html" class="footer-link" title="Sobre">Sobre</a>
+            <a href="politicadeprivacidade.html" class="footer-link" title="Política de privacidade">Política de
+                privacidade</a>
+            <a href="termosdeuso.html" class="footer-link" title="Termos de uso">Termos de uso</a>
+        </div>
+
+        <p id="email">pietrodasilvaferreira13@gmail.com</p>
+    </footer>
+
+    <div id="copyright">
+        &copy;<span id="ano"></span> Pietro Da Silva Ferreira. Todos os direitos reservados.
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
