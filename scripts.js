@@ -1,5 +1,3 @@
-document.getElementById('ano').textContent = new Date().getFullYear();
-
 const barradepesquisa = document.getElementById('barra-de-pesquisa');
 const botaodapesquisa = document.getElementById('submit')
 const resultadodabusca = document.getElementById('resultado-da-busca');
@@ -8,12 +6,12 @@ const listItems = resultsList.querySelectorAll('li');
 const menulateral = document.getElementById('menu-lateral')
 const menuexpandido = document.getElementById('menu-expandido');
 const pages = [
-    { title: 'Linguagens', url: 'linguagens.html', content: 'Conteúdo da página Linguagens'},
-    { title: 'Documentações', url: 'documentacoes.html', content: 'Conteúdo da página Documentações'},
-    { title: 'Sobre', url: 'sobre.html', content: 'Conteúdo da página Sobre'},
-    { title: 'Política de privacidade', url: 'politicadeprivacidade.html', content: 'Conteúdo da página Política de privacidade'},
-    { title: 'Termos de uso', url: 'termosdeuso.html', content: 'Conteúdo da página Termos de uso'},
-    { title: 'Home', url: 'index.html', content: 'Conteúdo da página Home'},
+    { title: 'Linguagens', url: 'linguagens.html', content: 'Conteúdo da página Linguagens' },
+    { title: 'Documentações', url: 'documentacoes.html', content: 'Conteúdo da página Documentações' },
+    { title: 'Sobre', url: 'sobre.html', content: 'Conteúdo da página Sobre' },
+    { title: 'Política de privacidade', url: 'politicadeprivacidade.html', content: 'Conteúdo da página Política de privacidade' },
+    { title: 'Termos de uso', url: 'termosdeuso.html', content: 'Conteúdo da página Termos de uso' },
+    { title: 'Home', url: 'index.html', content: 'Conteúdo da página Home' },
 ];
 
 barradepesquisa.addEventListener('input', function () {
@@ -90,3 +88,7 @@ menulateral.addEventListener('click', function () {
     this.classList.toggle('active');
     menuexpandido.classList.toggle('active')
 })
+
+function voltarAoTopo() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
